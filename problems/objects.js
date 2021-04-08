@@ -181,7 +181,10 @@ const addsCountry = (capitalByCountry, country, capital) => {
  * @returns {Object} {"Mark Twain": 8.9, "Nathaniel Hawthorne": 5.1}
  */
 
-const authorScores = () => {};
+const authorScores = (authors) => {
+  let obj = Object.fromEntries(authors);
+  return obj
+};
 
 /**
  * You are given an array of objects.
